@@ -281,7 +281,7 @@ function  PSCpageobjects()
 			this.noitemsincart=element(by.xpath('//div[contains(text(),"No items in Cart")]'));
 			//Meal functionality
 
-			this.addcart=element(by.xpath('/html[1]/body[1]/app-root[1]/app-full-layout[1]/app-dashboard[1]/div[2]/div[2]/form[1]/div[1]/div[2]/app-meals[1]/div[2]/div[1]/table[1]/tbody[1]/tr[2]/td[3]/span[1]/mat-icon[1]'));
+			this.addcart=element(by.xpath('/html[1]/body[1]/app-root[1]/app-full-layout[1]/app-dashboard[1]/div[2]/div[2]/form[1]/div[1]/div[2]/app-meals[1]/div[2]/div[1]/table[1]/tbody[1]/tr[2]/td[4]/span[1]/mat-icon[1]'));
 			this.amount=element(by.xpath('//input[@name="Amount"]'));
 			this.addtocartbutton=element(by.buttonText('Add to Cart'));
 			this.mealcartamount=element(by.xpath('//td[contains(text(),"$ 5.00")]'));
